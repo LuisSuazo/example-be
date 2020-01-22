@@ -17,7 +17,7 @@ public class exController {
 	@Autowired
 	private ExampleService ex;
 	
-	@RequestMapping(value = "/eqParam",
+	@RequestMapping(value = "/eqParam ",
             produces = {"application/json"},
             consumes = {"application/json"},
             method = RequestMethod.POST)
